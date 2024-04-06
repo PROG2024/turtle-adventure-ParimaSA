@@ -386,7 +386,7 @@ class FencingEnemy(Enemy):
 
 class ThiefEnemy(Enemy):
     """
-    ThiefEnemy:  move home to the random point
+    ThiefEnemy: move home randomly with itself for a while
     """
 
     def __init__(self,
